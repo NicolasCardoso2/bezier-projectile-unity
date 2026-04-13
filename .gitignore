@@ -1,0 +1,59 @@
+# ============================================================
+# .gitignore — Unity Project
+# ============================================================
+
+# Pastas geradas pelo Unity (não devem ser versionadas)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Arquivos de memória do Asset Store
+MemoryCaptures/
+
+# Pastas geradas pelo Unity Accelerator
+[Aa]sset[Pp]ipeline[Cc]ache/
+
+# Arquivos de build automáticos
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.csproj
+*.sln
+*.unityproj
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Arquivos de crash
+sysinfo.txt
+crashlytics-build.properties
+
+# Pacotes NPM (caso use Unity Package Manager com npm)
+node_modules/
+
+# Arquivos de configuração local do editor
+[Ee]xported[Oo]bj/
+[Aa]pp/
+*.booproj
+*.buildinfo
+*.pidb
+
+# IMPORTANTE: NÃO ignorar arquivos .meta
+# O Unity os usa para rastrear GUIDs de todos os assets
