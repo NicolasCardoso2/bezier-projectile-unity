@@ -1,6 +1,6 @@
 <div align="center">
 
-# BezierProjectile — Sistema de Projétil com Curvas de Bézier
+# BezierProjectile: Sistema de Projétil com Curvas de Bézier
 
 **Projétil inteligente para Unity com trajetória matemática, homing dinâmico, chain lightning e object pooling.**
 
@@ -31,15 +31,15 @@
 
 | Funcionalidade | Descrição |
 |---|---|
-| **Bézier Quadrática** | 1 ponto de controle — arco suave de origem ao alvo |
-| **Bézier Cúbica** | 2 pontos de controle — curva em "S" mais expressiva |
+| **Bézier Quadrática** | 1 ponto de controle: arco suave de origem ao alvo |
+| **Bézier Cúbica** | 2 pontos de controle: curva em "S" mais expressiva |
 | **Homing Dinâmico** | Recalcula a curva a cada frame para rastrear alvos em movimento |
 | **Leading (Previsão)** | Antecipa onde o alvo estará com base em sua velocidade atual |
 | **Auto-Targeting** | Encontra o inimigo mais próximo automaticamente via `OverlapSphere` |
 | **Chain Lightning** | Encadeia para o próximo alvo após impacto com redução de dano por nível |
 | **Colisão Real** | `OnTriggerEnter` com filtro por `LayerMask` para colisões físicas |
 | **Timeout** | Projétil se autodestrói e dispara evento após tempo limite |
-| **Object Pooling** | Elimina `Instantiate`/`Destroy` — reutiliza instâncias pré-criadas |
+| **Object Pooling** | Elimina `Instantiate`/`Destroy`: reutiliza instâncias pré-criadas |
 | **AnimationCurve de Velocidade** | Easing de velocidade totalmente customizável no Inspector |
 | **TrailRenderer** | Rastro configurável por cor no `ProjectileData` |
 | **Gizmos de Debug** | Visualiza curva, pontos de controle e raio de chain no Scene View |
@@ -249,6 +249,6 @@ BezierProjectile/
 
 <div align="center">
 
-Feito por [Nicolas Cardoso](https://github.com/NicolasCardoso2) · [LinkedIn](https://www.linkedin.com/in/nicolas-cardoso-vilha-do-lago-2483b1322/)
+Feito por [Nicolas Cardoso](https://github.com/NicolasCardoso2) - [LinkedIn](https://www.linkedin.com/in/nicolas-cardoso-vilha-do-lago-2483b1322/)
 
 </div>
